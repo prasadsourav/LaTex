@@ -1,0 +1,56 @@
+% This is a comment, this will be not be read by the machine
+
+% Which type of document do you want?
+\documentclass[a4paper,12pt]{article} 
+
+% Use packages for different functionalities
+\usepackage[utf8]{inputenc} % For character encoding
+\usepackage{natbib} % For bibliography
+\usepackage{amsmath} % For mathematics
+\usepackage{amssymb}
+\usepackage{graphicx} % For graphics
+\usepackage{url} % For including web links
+\usepackage{tikz} % For advanced graphics with the language TikZ
+\usepackage[font=footnotesize]{caption} 
+\linespread{1.33} % Control spread between lines
+\usepackage[toc,page]{appendix} 
+\usepackage[colorlinks=true,linkcolor=red,urlcolor=red,citecolor=blue,backref=page]{hyperref} 
+\usepackage{rotating}
+\usepackage{amsthm}
+\usepackage{lipsum}
+% \usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=3cm]{geometry}
+
+% Now comes the main part
+\title{Introduction to \LaTeX}
+\author{Sourav Prasad}
+%\date{} %comment this out to include date
+
+\begin{document}
+
+\maketitle
+
+\section{first section }
+
+This is the first section of your project\footnote{this is a footnote}.This includes another footnote\footnote{here it is. see the magic}\
+The rest texts means nothing and randomly generated texts in \LaTeX to show you how to write. With \textbf{lipsum} package we can just fill the page to see the formatting.\
+
+
+\lipsum[]
+\subsection{subsection 1}
+\lipsum[]
+\subsubsection{subsubsection 1}
+\lipsum[]
+
+\section{section 2}
+\lipsum[]
+\subsection{subsection 1}
+\lipsum[]
+\subsection{subsection 2}
+\lipsum[]
+\subsubsection{subsubsection 1}
+\lipsum[]
+\subsubsection{subsubsection 2}
+\lipsum[]
+\subsubsection{subsubsection 3}
+\lipsum[]
+\end{document}
