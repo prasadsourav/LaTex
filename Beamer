@@ -1,0 +1,43 @@
+\documentclass[professionalfont]{beamer} %professionalfont helps in times new roman along with  \usepackage{newtxtext,newtxmath}
+\usetheme{Copenhagen} % Other themes: Antibes, Berkeley, Berlin, Goettingen, Malmoe, Szeged, Warsaw, Boadilla default	Darmstadt	Malmoe
+% AnnArbor	Dresden	Marburg
+% Antibes	Frankfurt	Montpellier
+% Bergen	Goettingen	PaloAlto
+% Berkeley	Hannover	Pittsburgh
+% Berlin	Ilmenau	Rochester
+% Boadilla	JuanLesPins	Singapore
+% CambridgeUS	Luebeck	Szeged
+% Copenhagen	Madrid	Warsaw
+\usecolortheme{rose} % Other colorthemes: beaver, crane, lily, rose, seahorse, whale, albatross, beetle, albatross, dove, fly, orchid, rose, seagull, sidebartab, structure, wolverine
+\usepackage[utf8]{inputenc}
+\usepackage{fontawesome5}
+
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[font=scriptsize]{caption}
+\usepackage{color}
+\usepackage{newtxtext,newtxmath}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{tabularx}
+\title{Title}
+\author{Author Name}%\scriptsize{(joint work with others)}}
+
+\date{} % Comment this out for displaying date
+\begin{document} 
+\maketitle
+\begin{frame}
+ A frame is one slide/page. Keep inserting as per need.
+\end{frame}
+\begin{frame}
+ This is another slide/page. 
+ add your items here.
+\end{frame}
+
+\bibliographystyle{chicago}% Select the citation style e.g. ieeetr
+\bibliography{bib file name}% use the .bib file
+
+
+\end{document}
