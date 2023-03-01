@@ -1,6 +1,6 @@
-stargazer(
-  reg_lm1, 
-  reg_lm2,
-  reg_lm3, 
-  reg_lm4, title = "Title here", notes = "\\parbox[t]{\\textwidth} {Notes here }", 
-  notes.align = "l", no.space = TRUE, digits = 6) # six digit
+stargazer(reg, reg1, reg2, reg3, reg4, reg5, reg6,
+          title = "Title here", 
+          notes = "\\parbox[t]{\\textwidth} {Notes here }", 
+          notes.align = "l", 
+          no.space = TRUE, 
+          digits = 4) # four digit
